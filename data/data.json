@@ -1,0 +1,71 @@
+{
+    "proceeds": {
+        "thisDay": "43934",
+        "yesterday": "52503",
+        "LastWeek": "57177",
+        "weekBeforeLast": "42047"
+    },
+
+    "cash": {
+        "thisDay": "24916",
+        "yesterday": "24916",
+        "LastWeek": "23742",
+        "weekBeforeLast": "21634"
+    },
+
+    "cashlessPayments": {
+        "thisDay": "11744",
+        "yesterday": "142000",
+        "LastWeek": "16005",
+        "weekBeforeLast": "17854"
+    },
+
+    "creditCards": {
+        "thisDay": "5872",
+        "yesterday": "6842",
+        "LastWeek": "64231",
+        "weekBeforeLast": "6169"
+    },
+
+    "averageCheck": {
+        "thisDay": "1300",
+        "yesterday": "900",
+        "LastWeek": "856",
+        "weekBeforeLast": "1540"
+    },
+
+    "averageGuest": {
+        "thisDay": "1200",
+        "yesterday": "1200",
+        "LastWeek": "758",
+        "weekBeforeLast": "658"
+    },
+
+    "deleteFromCheckAfter": {
+        "thisDay": "1000",
+        "yesterday": "1100",
+        "LastWeek": "900",
+        "weekBeforeLast": "50800"
+    },
+
+    "deleteFromCheckBefore": {
+        "thisDay": "1300",
+        "yesterday": "1200",
+        "LastWeek": "900",
+        "weekBeforeLast": "780"
+    },
+
+    "amountOfChecks": {
+        "thisDay": "34",
+        "yesterday": "36",
+        "LastWeek": "25",
+        "weekBeforeLast": "24"
+    },
+
+    "amountOfGuest": {
+        "thisDay": "32",
+        "yesterday": "31",
+        "LastWeek": "22",
+        "weekBeforeLast": "310"
+    }
+}

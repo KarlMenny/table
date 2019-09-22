@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Table">
+	<meta name="author" content="Andreii">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Table</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="main-content container">
+		<div class="main-content__wrapper">
+			<div class="upper-menu">
+				<p class="upper-menu__text">Общая статистика</p>
+				<ul class="upper-menu__items">
+					<li class="upper-menu__item"><i class="icon-refresh"></i></li>
+					<li class="upper-menu__item"><i class="icon-gear"></i></li>
+					<li class="upper-menu__item"><i class="icon-cross"></i></li>
+				</ul>
+			</div>			
+			<table class="fintable">
+				<thead class="fintable__head">
+					<tr class="fintable__row">
+						<th class="fintable__cell">Показатель</th>
+						<th class="fintable__cell fintable__col_background_main">Текущий день</th>
+						<th class="fintable__cell">Вчера</th>
+						<th class="fintable__cell">Текущий день на прошлой неделе</th>
+						<th class="fintable__cell">Текущий день на позапрошлой неделе</th>
+					</tr>
+				</thead>
+				<tbody class="fintable__body">
+					<tr class="fintable__row">
+						<td class="fintable__cell">Выручка, грн.</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row-graph">
+						<td class="fintable__cell fintable__cell_graph" id="graph" colspan="7"></td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Наличные</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Безналичный расчет</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Кредитные карты</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Средний чек, грн.</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Средний гость, грн.</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Удаления из чека (после оплаты), грн.</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Удаления из чека (до оплаты), грн.</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Количество чеков</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+					<tr class="fintable__row">
+						<td class="fintable__cell">Количество гостей</td>
+						<td class="fintable__cell">000000</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+						<td class="fintable__cell">
+							<span class="fintable__number">000000</span>
+							<span class="fintable__percent">0%</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="main-content__panel">
+			<p class="main-content__panel-title">Какие столбцы в таблице Вы хотели бы скрыть?</p>
+
+			<ul class="main-content__switch-list">
+				<li class="main-content__list-item">
+					<label>
+						<input class="main-content__switch" type="checkbox" name="column" value="2" checked>
+						Текущий день
+					</label>
+				</li>
+				<li class="main-content__list-item">
+					<label>
+						<input class="main-content__switch" type="checkbox" name="column" value="3" checked>
+						Вчера
+					</label>
+				</li>
+				<li class="main-content__list-item">
+					<label>
+						<input class="main-content__switch" type="checkbox" name="column" value="4" checked>
+						Текущий день на прошлой неделе
+					</label>
+				</li>
+				<li class="main-content__list-item">
+					<label>
+						<input class="main-content__switch" type="checkbox" name="column" value="5" checked>
+						Текущий день на позапрошлой неделе
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
