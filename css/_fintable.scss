@@ -1,0 +1,154 @@
+.fintable {
+
+    &__head {
+        font-family: Tahoma, sans-serif;
+        font-size: 14px;
+
+        & th:nth-child(2),
+        & th:nth-child(n+4) {
+            padding: 15px 15px;
+        }
+
+        & th:nth-child(n+2) {
+            width: 180px;
+        }
+    }
+
+    &__body {
+
+        & td:first-child {
+            text-align: left;
+            padding: 15px 8px;
+        }
+
+        & td:nth-child(2) {
+            background-color: $cell-color-main;
+        }
+
+        & tr:nth-child(3) td:first-child,
+        & tr:nth-child(4) td:first-child,
+        & tr:nth-child(5) td:first-child {
+            padding-left: 25px;
+        }
+    }
+    
+    &__cell {
+        position: relative;
+        border: 3px solid #fff;
+        padding: 15px 30px;
+        vertical-align: middle;
+        text-align: center;
+        background-color: $cell-color;
+
+        &_graph {
+            background-color: #fff;
+            min-height: 300px;
+        }
+
+        &_background_main {
+            background-color: $cell-color-main;
+        }
+    }
+
+    &__number {
+        float: left;
+    }
+
+    &__percent {
+        float: right;
+    }
+
+    @media (max-width: 991px) {
+
+        tr:first-child th {
+            padding-top: 20px;
+        }
+
+        tr:nth-child(1) th,
+        tr:nth-child(7) th {
+            background-color: #fff;
+        }  
+       
+        th {
+            background-color: #d1e2ff;
+            border: 3px solid #fff;
+            padding-left: 15px;
+        }
+
+        &__number {
+            float: none;
+        }
+
+        &__percent {
+            @include pos($r: 30px);
+        }
+    }
+
+    @media (max-width: 521px) {
+        
+        &__cell {
+
+            &_graph {
+                height: 700px;
+            }
+        }
+    }
+
+    @media (max-width: 450px) { 
+
+        &__row td:first-child,
+        &__cell {
+            font-size: 15px;
+        }
+
+        &__number {
+            float: left;
+        }
+    }
+
+    @media (max-width: 420px) { 
+
+        &__cell {
+           padding: 15px 15px;
+        }
+
+        &__percent {
+           right: 15px;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.st-key {
+    vertical-align: middle;
+    padding-right: 2%;
+}
+
+.st-head-row {
+    padding: 20px 0;
+}
+
+.rows-hover {
+	background-color: #e6e6e67a !important;
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.highcharts-axis-line {
+    stroke-width: 1 !important;
+}
+
+.graph-hidden {
+    visibility: hidden;
+}
+
+.graph-visible {
+    visibility: visible !important;
+}
+
+
